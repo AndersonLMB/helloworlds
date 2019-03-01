@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldConsole", "HelloW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{076D592C-42CC-434D-985C-897A7B30DA5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeSchedule", "SnakeSchedule\SnakeSchedule.csproj", "{F1BB167B-4E1C-4CE5-90BC-3117D7C1B4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{076D592C-42CC-434D-985C-897A7B30DA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076D592C-42CC-434D-985C-897A7B30DA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076D592C-42CC-434D-985C-897A7B30DA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BB167B-4E1C-4CE5-90BC-3117D7C1B4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BB167B-4E1C-4CE5-90BC-3117D7C1B4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BB167B-4E1C-4CE5-90BC-3117D7C1B4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BB167B-4E1C-4CE5-90BC-3117D7C1B4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
