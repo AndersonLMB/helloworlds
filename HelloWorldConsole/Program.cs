@@ -13,6 +13,8 @@ namespace HelloWorldConsole
     {
         static void Main(string[] args)
         {
+
+
             Int32 fuyi = Int32.MinValue;
             var fuyibytes = BitConverter.GetBytes(fuyi);
 
