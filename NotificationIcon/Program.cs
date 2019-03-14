@@ -24,6 +24,7 @@ namespace NotificationIcon
         {
 
 
+
             //using (FileStream fs = new FileStream(@"C:\test\testdatauri.txt", FileMode.Open))
             //{
             //    var data = new byte[fs.Length];
