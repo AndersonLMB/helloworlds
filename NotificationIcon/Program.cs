@@ -45,16 +45,19 @@ namespace NotificationIcon
                 var img = Image.FromFile(@"C:\test\dxt.png");
                 var mms = new MemoryStream();
                 img.Save(mms, img.RawFormat);
-              
+                Convert.ToBase64String(mms.ToArray());
 
-                
-                var ddata = mms.GetBuffer();
-                var sstr = Encoding.UTF8.GetString(ddata);
+
+
+
+
+                var ddata = mms.ToArray();
+                var sstr = Convert.ToBase64String(ddata);
 
 
 
                 var str = sr.ReadToEnd();
-                var data = Encoding.UTF8.GetBytes(str);
+                var data = Convert.FromBase64String(str);
 
                 var ms = new MemoryStream(data);
 
